@@ -51,6 +51,7 @@ American Express wanted a system that recommends the most relevant offers to eac
 - Top-ranked features included customer redemption frequency, offer type, and event click counts.
 - Combining CTR features from events and offer metadata provided a major lift in performance.
 - Effective cleaning by checking correlation with target as well as amongst the columns itself resulted in great dimensionality reduction.
+- After hyperparameter tuning achieved Map@7 score of 0.439.
 
 ---
 

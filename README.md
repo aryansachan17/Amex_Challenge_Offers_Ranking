@@ -15,11 +15,12 @@ American Express wanted a system that recommends the most relevant offers to eac
 - Cleaned constant/null-heavy columns and retained categorical dtypes where beneficial.
 - Created train and test datasets with consistent schema.
 
-###  Feature Engineering
+###  Feature Engineering and selection
 
 - Created CTR-based features from events and transactions.
 - Offer duration buckets (flash sale, long-term, etc).
 - Offer redemption frequency and discount bucket features.
+- Tracked feature importance , correlation matrix and validation performance per fold.
 
 ###  Model Training
 
@@ -32,7 +33,7 @@ American Express wanted a system that recommends the most relevant offers to eac
 
 ###  Evaluation
 
-- Tracked feature importance and validation performance per fold.
+- Submitted csv file containing the probabilities of top offers per customer for evaluation to get map@7 score.
 
 ---
 
